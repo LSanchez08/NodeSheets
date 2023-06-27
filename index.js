@@ -6,7 +6,7 @@ const { google } = require('googleapis');
 const app = express();
 
 app.get('/', async (req, res) => {
-  const spreadsheetId = '12r7yInB2F-72cmEFHdCYoZx9QHFmkl0CVJynfoUmqjc';
+  const spreadsheetId = '1ODqlYR5M9ASuBu3i2dD54ZXO_tzEdD7CWo9ASQBHrmQ';
   const range = 'Sheet1!A1:B6';
   const auth = new GoogleAuth({
     keyFile: 'credentials.json',
